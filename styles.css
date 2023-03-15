@@ -113,7 +113,6 @@ button {
 /* Container 3 - Quote section */
 .container-3 {
     padding: 100px 0 100px 0;
-    font-style: italic;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -123,6 +122,7 @@ button {
 
 .quote-text {
     font-size: 36px;
+    font-style: italic;
     color: #1F2937;
     display: flex;
     flex-wrap: wrap;
@@ -133,8 +133,8 @@ button {
     font-size: 20px;
     font-weight: bold;
     display: flex;
-    justify-content: flex-end;
-    flex: 0 0 25px;
+    justify-content: end;
+    margin-left: 30%;
 
 }
 
