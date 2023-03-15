@@ -31,7 +31,6 @@ button {
 }
 
 /* CLASSES */
-
 .header,
 .container-1,
 .footer {
@@ -59,7 +58,7 @@ button {
     gap: 300px;
 }
 
-/* Container 1 - Text description of website and image*/
+/* Container 1 - Text description of website and image */
 .container-1 {
     display: flex;
     gap: 50px;
@@ -111,7 +110,7 @@ button {
     height: 150px;
 }
 
-/* Container 3 - Quote section*/
+/* Container 3 - Quote section */
 .container-3 {
     padding: 100px 0 100px 0;
     font-style: italic;
@@ -137,4 +136,32 @@ button {
     justify-content: flex-end;
     flex: 0 0 25px;
 
+}
+
+/* Container 4 - Sign up */
+.container-4 {
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    display: flex;
+    padding: 25px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+}
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 750px;
+}
+
+.box-content button {
+    border: 2px solid #E8E8E8;
+    padding: 0 20px 0 20px;
 }
